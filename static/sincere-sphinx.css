@@ -1,0 +1,70 @@
+@import url("nature.css");
+body
+{
+    font-family: verdana, helvetica, walkway, sans-serif;
+    *background-color: #fff;
+    background: white;
+    margin: 0px;
+}
+.sphinxsidebarwrapper{
+    background: white;
+    border-left: 1px red solid;
+}
+div.document{
+    background-color: white;
+}
+.sphinxsidebarwrapper a{
+    background: white;
+}
+
+div.sphinxsidebarwrapper h4, div.sphinxsidebarwrapper h3{
+    background-color: white;
+    border-bottom: 1px red solid;
+}
+.document{
+    width: 1200px;
+    margin: 0 auto;
+}
+div.related{
+    width: 1024px;
+    margin: 0 auto;
+    background: white;
+}
+div.related a{
+    color:red;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+h1 {
+    color: red;
+    font-size: 38px;
+    line-height: 85%;
+    font-weight: normal;
+    border-bottom: 1px red solid;
+}
+div.body h1, div.body h2{
+clear: none;
+color: white;
+font-family: georgia, serif;
+font-size: 22px;
+padding: 6px 12px;
+background-color: red;
+overflow: hidden;
+margin: 0px 3px 10px 10px;
+float: right;
+text-align: right;
+}
+
+.section p, div.toctree-wrapper, .section ul{
+    clear: both;
+}
+.body{
+    border-right: 1px red solid;
+}
+li{
+    list-style-type: none;
+}
+
+div.body{
+    margin: 0px 90px;
+}
