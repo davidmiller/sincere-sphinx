@@ -11,3 +11,16 @@
     </script>
     {{ super() }}
 {% endblock %}
+
+{% block sidebarlogo %}
+    <div class="proj-meta">
+      Project: <span class="meta-detail">{{ project }}</span><br />
+      Language: <span class="meta-detail">{{ language }}</span><br />
+      License: <span class="meta-detail">{{ license }}</span><br />
+      <a href="{{ source }}">Source</a><br />
+      <a href="{{ bugs }}">Bugs</a><br />
+    </div>
+
+{{ super() }}
+
+{% endblock %}

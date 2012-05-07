@@ -6,6 +6,12 @@ body
     background: white;
     margin: 0px;
 }
+ol, ul{
+    -webkit-padding-start: 0px;
+}
+ol li{
+    list-style-type: decimal;
+}
 .sphinxsidebarwrapper{
     background: white;
     border-left: 1px red solid;
@@ -20,6 +26,11 @@ div.document{
 div.sphinxsidebarwrapper h4, div.sphinxsidebarwrapper h3{
     background-color: white;
     border-bottom: 1px red solid;
+    margin: 16px 0px 0px 0px;
+    font-size: 16px;
+}
+div.sphinxsidebarwrapper h4 a, div.sphinxsidebarwrapper h3 a{
+    color: black;
 }
 .document{
     width: 1200px;
@@ -46,13 +57,20 @@ div.body h1, div.body h2{
 clear: none;
 color: white;
 font-family: georgia, serif;
-font-size: 22px;
 padding: 6px 12px;
 background-color: red;
 overflow: hidden;
 margin: 0px 3px 10px 10px;
 float: right;
 text-align: right;
+}
+
+div.body h1{
+    font-size: 22px;
+}
+
+div.body h2{
+    font-size: 16px;
 }
 
 .section p, div.toctree-wrapper, .section ul{
@@ -67,4 +85,26 @@ li{
 
 div.body{
     margin: 0px 90px;
+}
+
+div.proj-meta{
+    color:black;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+div.proj-meta a{
+    color: red;
+    text-transform: uppercase;
+}
+
+div.proj-meta span.meta-detail{
+    color: #666;
+}
+div.body h1{
+margin-bottom:36px;
+}
+ul{
+  -webkit-padding-start: 0px;
+  margin-left: 0px;
 }
